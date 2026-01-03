@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Indian Architecture & History</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo" onclick="showPage('home')">The Legacy Within the Frame</div>
+                <ul class="nav-links">
+                    <li><a href="#" onclick="showPage('temples'); return false;">Old Temples</a></li>
+                    <li><a href="#" onclick="showPage('religions'); return false;">Ancient Religions</a></li>
+                    <li><a href="#" onclick="showPage('heritage'); return false;">Cultural Heritage</a></li>
+                    <li><a href="#" onclick="showPage('about'); return false;">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Indian Architecture & History</h1>
+                    <p>Where time speaks through stones and carvings.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Temples Page -->
+        <div id="temples" class="page">
+            <div class="parallax-section" id="templeParallax">
+                <div class="parallax-layer" style="background-image: url('https://image.slidesdocs.com/responsive-images/docs/vintage-texture-with-bohemian-arrow-design-page-border-background-word-template_996c2c9e99__1131_1600.jpg');"></div>
+                <div class="parallax-content">
+                    <h2>Ancient Temples of India</h2>
+                    <p>Architectural Marvels Carved in Stone</p>
+                </div>
+            </div>
+
+            <section class="section">
+                <h2>Explore Sacred Architecture</h2>
+                <p>Journey through centuries of devotion and craftsmanship, where each temple tells a story of faith, art, and engineering excellence.</p>
+                
+                <div class="temple-grid">
+                    <div class="temple-card scroll-animate" onclick="openModal('kailasa')">
+                        <img src="https://i.redd.it/9v5hegpf95t21.jpg" alt="Kailasa Temple">
+                        <div class="temple-card-content">
+                            <h3>Kailasa Temple</h3>
+                            <p>8th century monolithic wonder carved from a single rock, dedicated to Lord Shiva at Ellora Caves.</p>
+                        </div>
+                    </div>
+
+                    <div class="temple-card scroll-animate" onclick="openModal('konark')">
+                        <img src="https://static.toiimg.com/thumb/msid-99237242,width-748,height-499,resizemode=4,imgsize-307556/.jpg" alt="Konark Sun Temple">
+                        <div class="temple-card-content">
+                            <h3>Konark Sun Temple</h3>
+                            <p>13th century architectural masterpiece designed as a colossal chariot with intricate stone carvings.</p>
+                        </div>
+                    </div>
+
+                    <div class="temple-card scroll-animate" onclick="openModal('shore')">
+                        <img src="https://mycameralog.com/wp-content/uploads/2025/10/10.jpeg" alt="Shore Temple">
+                        <div class="temple-card-content">
+                            <h3>Shore Temple</h3>
+                            <p>8th century granite masterpiece overlooking the Bay of Bengal at Mahabalipuram.</p>
+                        </div>
+                    </div>
+
+                    <div class="temple-card scroll-animate" onclick="openModal('brihad')">
+                        <img src="https://static.india.com/wp-content/uploads/2018/08/Brihadeeswara-temple-photo-1.jpg" alt="Brihadeeswarar Temple">
+                        <div class="temple-card-content">
+                            <h3>Brihadeeswarar Temple</h3>
+                            <p>11th century Chola dynasty marvel in Thanjavur, a UNESCO World Heritage Site.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Religions Page -->
+        <div id="religions" class="page">
+            <section class="section" style="min-height: 100vh; padding-top: 100px;">
+                <h2>Ancient Religions of India</h2>
+                <p>The spiritual birthplace of major world religions, India has nurtured diverse philosophical traditions that have shaped human civilization for millennia.</p>
+                
+                <div class="religion-grid">
+                    <div class="religion-card scroll-animate">
+                        <h3>🕉️ Hinduism</h3>
+                        <p>One of the world's oldest religions, evolving from Vedic traditions with concepts of dharma, karma, and moksha.</p>
+                    </div>
+
+                    <div class="religion-card scroll-animate">
+                        <h3>☸️ Buddhism</h3>
+                        <p>Founded by Siddhartha Gautama in the 6th century BCE, teaching the path to enlightenment through the Four Noble Truths.</p>
+                    </div>
+
+                    <div class="religion-card scroll-animate">
+                        <h3>☯️ Jainism</h3>
+                        <p>Ancient tradition emphasizing non-violence (ahinsa), founded by Mahavira in the 6th century BCE.</p>
+                    </div>
+
+                    <div class="religion-card scroll-animate">
+                        <h3>☬ Sikhism</h3>
+                        <p>Founded by Guru Nanak in the 15th century, promoting equality, service, and devotion to one God.</p>
+                    </div>
+                </div>
+
+                <div style="max-width: 800px; margin: 3rem auto; padding: 2rem; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <h3 style="color: #8b0000; margin-bottom: 1rem;">The Philosophy of Unity</h3>
+                    <p style="color: #4a3b2a; line-height: 1.8;">Despite their differences, these ancient religions share common threads of seeking truth, promoting compassion, and understanding the nature of existence. They have coexisted for centuries, enriching India's spiritual landscape.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Heritage Page -->
+        <div id="heritage" class="page">
+            <section class="section" style="padding-top: 100px;">
+                <h2>Cultural Heritage of India</h2>
+                <p>A tapestry woven through millennia, blending art, architecture, philosophy, and traditions that continue to inspire the world.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 style="color: #8b0000; margin-bottom: 0.5rem;">UNESCO World Heritage Sites</h3>
+                            <p>44 sites including Taj Mahal, Ajanta Caves, Hampi monuments, and many more architectural marvels.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 style="color: #8b0000; margin-bottom: 0.5rem;">Classical Arts</h3>
+                            <p>Eight classical dance forms, including Bharatanatyam and Kathak, preserving ancient storytelling traditions.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 style="color: #8b0000; margin-bottom: 0.5rem;">Ancient Texts</h3>
+                            <p>Vedas, Upanishads, and epics like Mahabharata and Ramayana guiding philosophy and ethics.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 style="color: #8b0000; margin-bottom: 0.5rem;">Architectural Legacy</h3>
+                            <p>From stepwells to forts, temples to palaces, showcasing diverse regional styles and innovations.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-animate">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 style="color: #8b0000; margin-bottom: 0.5rem;">Living Traditions</h3>
+                            <p>Yoga, Ayurveda, and meditation practices that have gained global recognition and practice.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <section class="section" style="min-height: 100vh; display: flex; flex-direction: column; justify-content: center;">
+                <h2>About This Project</h2>
+                <div style="max-width: 800px; margin: 2rem auto; padding: 3rem; background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1);">
+                    <p style="font-size: 1.2rem; line-height: 2; color: #4a3b2a; margin-bottom: 2rem;">
+                        This digital archive is a tribute to India's timeless legacy — blending art, history, and architecture into an immersive experience. Each section celebrates the rich cultural heritage that has shaped civilization for thousands of years.
+                    </p>
+                    <p style="text-align: center; font-size: 1.3rem; color: #8b0000; font-weight: bold; font-style: italic;">
+                        "नमस्ते सदा वत्सले मातृभूमे त्वया हिन्दुभूमे सुखं वर्धितोहम्।"
+                    </p>
+                    
+
+                </div>
+            </section>
+        </div>
+
+        <!-- Modal -->
+        <div id="templeModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close-modal" onclick="closeModal()">×</button>
+                    <img id="modalImage" src="https://www.travassa.in/wp-content/uploads/2023/11/Kailasa-2.webp" alt="">
+                </div>
+                <div class="modal-body">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalText"></p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 The Legacy Within the Frame | Made By Team Hackelite — Aditya, Samay</p>
+        </footer>
+
+       
+        <script src="script.js"></script>
+    </body>
+    </html>
