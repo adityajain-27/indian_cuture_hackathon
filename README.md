@@ -1,7 +1,13 @@
-# The Legacy Within the Frame
+# 🇮🇳 The Legacy Within the Frame
 ### Indian Architecture, History & Cultural Heritage
 
-An interactive frontend web project that showcases India’s ancient temples, religions, and cultural heritage through immersive design and smooth user interactions.
+An interactive frontend web project showcasing India’s ancient temples, religions, and cultural heritage through immersive design and smooth user interactions.
+
+---
+
+## 🏆 Hackathon Achievement
+🥇 **First Prize Winner**  
+This project was built and presented during a hackathon and secured **1st place**, based on creativity, design, and implementation.
 
 ---
 
@@ -18,35 +24,34 @@ An interactive frontend web project that showcases India’s ancient temples, re
 ## 🛠 Tech Stack
 - **HTML5** – semantic structure  
 - **CSS3** – animations, transitions, responsive layout  
-- **JavaScript (Vanilla)** – DOM manipulation, UI logic, scroll animations  
+- **JavaScript (Vanilla)** – DOM manipulation, UI logic, scroll-based animations  
 
 ---
 
 ## ✨ Key Features
 - Single-page style navigation without page reloads  
 - Parallax scrolling and scroll-triggered animations  
-- Interactive modals for detailed content  
+- Interactive modals for detailed cultural content  
 - Responsive design across devices  
 - UI inspired by Indian heritage aesthetics  
 
 ---
 
 ## 🎯 Project Purpose
-This project was built to demonstrate my ability to design and develop a complete, deployable frontend web application from scratch with a strong focus on user experience and visual storytelling.
+The goal of this project was to present Indian cultural heritage in an engaging and modern digital format. It focuses on storytelling through visuals, smooth interactions, and clean frontend architecture.
 
 ---
 
-## 📌 Current Learning Focus
-I am currently learning **backend development** using **Node.js and Express**.  
-This project represents my frontend foundation, while backend-focused projects are actively in progress.
+## 📌 Learning & Growth
+Alongside frontend development, I am currently learning **backend development using Node.js and Express**, with a focus on APIs. This project represents my frontend foundation, while full-stack projects are actively in progress.
 
 ---
 
 ## 🔮 Future Enhancements
-- Backend integration for dynamic content  
-- REST APIs for managing historical data  
-- Database support for scalable content  
-- User interaction features such as feedback and bookmarking  
+- Backend integration for dynamic content
+- REST APIs for scalable data handling
+- Database support for managing heritage data
+- User interaction features such as feedback and bookmarking
 
 ---
 
